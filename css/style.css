@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F6F9F9;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.header {
+    height: 10vh;
+}
+
+.logo {
+    padding-left: 130px;
+    padding-top: 15px;
+}
+
+.banner {
+    background-image: url(../images/banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 100px;
+    color: rgb(250, 247, 244);
+    font-weight: lighter;
+}
+
+.banner hr {
+    width: 50%;
+    border: 1px solid #15a4fa;
+    margin: 0px auto;
+}
+
+.banner p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: rgb(250, 247, 244);
+}
+
+.banner button {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #15a4fa;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.banner a button:hover {
+    background-color: #15a4fa;
+    transition: 0.4s ease-in-out;
+}
+
+
+.feature {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.feature h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #2D3950;
+}
+
+.feature p {
+    color: #999999;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+}
